@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="stellarmind_quiz_rgb" size="1024.000000 1024.000000" />
+    <ImageTarget name="stellarmind_inroduction_rgb" size="1024.000000 1024.000000" />
+  </Tracking>
+</QCARConfig>
