@@ -5,9 +5,27 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Planets of the Solar System 3D/Scenes/quiz 1.unity
+    guid: 65bb523d30ce3fd4ca221f60a6b86f3e
+  - enabled: 1
+    path: Assets/Planets of the Solar System 3D/Scenes/quiz 2.unity
+    guid: 8168d6420ce70c844817e5fc9c96ef30
+  - enabled: 1
+    path: Assets/Planets of the Solar System 3D/Scenes/quiz 3.unity
+    guid: 8a871956a299e294a9e42cbd07da7e78
+  - enabled: 1
+    path: Assets/Planets of the Solar System 3D/Scenes/quiz 4.unity
+    guid: 3d842726a01a4d947a8b3729939495a4
+  - enabled: 1
+    path: Assets/Planets of the Solar System 3D/Scenes/quiz 5.unity
+    guid: 3337c80a31e46e04d9272901815ca8a7
+  - enabled: 1
+    path: Assets/Planets of the Solar System 3D/Scenes/ending.unity
+    guid: f5704ac01c3ab4e41a8ba700f2f40128
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
   m_UseUCBPForAssetBundles: 0

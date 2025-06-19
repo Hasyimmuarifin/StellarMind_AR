@@ -8,16 +8,14 @@ public class JawabanBenar : MonoBehaviour
 
     public void OnButtonClick()
     {
-        Debug.Log("Jawaban benar!");
-
         if (benarSound != null)
-        {
             benarSound.Play();
-        }
 
-        // Tunggu beberapa detik, lalu pindah scene
+        ScoreManager.Instance.TambahSkor(); // Tambah skor
+
         Invoke("PindahScene", delayBeforeNextScene);
     }
+
 
     void PindahScene()
     {
