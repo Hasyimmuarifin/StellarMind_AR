@@ -14,22 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vuforia:
     vuforiaLicenseKey: AaMlN9T/////AAABmQVqws6NkU7ylhhmBm5IXcI+/tAV8Y7NnCIL9xkCfxiyjZCHCuHPbygZslW2Zq2VklLa904hynumzYlX/FX2EWZ1Bxq3vg1//9tzMgQwY5W+iE0RLRRfWqzURuO79qXGMtXRJ/DQWieb8SWeGyCvwxN9Z4oEQZCIDtCeWURLcaNeDWs9HxrL0s0MxQjUNwEc3dJELObN2ChHhO16ZikZrgc/RC7eC3LV/Z/PNR6cGvXcoCuuk4JQHb0s8QmsIrN3GtbIG/eZtf2neCs0IU6jpeTdEfBKEjrWMd9WTTXaiUlKkd1LGSJH+411MYJkrddTic1ztR6b5pkyhVLVFRJRuBKtl+6umYqF9qa5svxpv0Ve
-    ufoLicenseKey: QVNERkhaVC8vLy8vQUFBQUtEMmhNdnBVSTBtR3M2eGFpdStqZkorSU11V3BtYlBZbXdHRlBSeTM2S2g0TnBIMStMeHptRTJkQ09zLzNSRWpOZmtJdUFJZEFybHFkcW5TMHd2R1RyUStkOHRlbGFLdDBxMlpmSC9RV210bHF5M0JubVRYNmJHYUpjTFVheHlzbmsrM2twbkN4c3VMbEhFWjRQUEplSzUvZXFaQkQwa2xjTy91NG9ZcDZ0MmFOVkVsTTgzbmNhTUN2cGErTWt3dTNBc2FzS1ltaVlHU3l0N0EwaVRpeUZBU25IUnJQcDRJZXF6NzA2RnNaR29LNjNScTRKTy9VRHZIZEJ6eXRuMVVvUDYvSFhIZVZtU0wrYnJBaGQ3STdrVVRjN09hTTFESUU5SmwxQmZWRjB2S2dFL29VaExjekFFRnJaNVFzUldkZUhvUzIvWUxpRFVzVXFwaGwzSmlKdUViRUlCS2dodWdFSjVURlIwSUNNZ3I=
+    ufoLicenseKey: QVhiM0Y1Ly8vLy8vQUFBQUtPbnFIeHJFSGs1N3VrMlg4U050eVBzK2pkOFZxMDhrazlwYjBsYS9aZUIxQlV1ckZWcWt0ZllSQWpnT2tIRlY2VzdOMDRTRjNYRUhmbTF5L1BnYlB4eWdHWEF6RUNheXowc3dyNVNYa2ozdERuRjhka1FpOHRscHdkMDcrcEJEY1FjTjNJcUM1bEgwOTYzQkdZdjRsQStRb0hSQU9nRGthelp5TlY0WHVwWU9EaE05NWw5bXAzbnBDMjM5MWZBWXBFdEdiL2loTDNab3N4b25ZblhjK1JtSS9wLzRoTDIwVGhmTXR6WFJNYkpUTXZLZzJoQ0N0TEJXNEptZ0pSOUtSdStzQWM3QjVNOWFFMGVHQ1dUT1VRSUUweEpiZC9ZL2cvS29iNDhBRXdQOGFwbWR5NmRWU0FHU2psVzRZY2FEU2Zud3J1ZHhucVNmSUZiajNTUnIzM0lKVlFIaW1rL0oyOGNFeDdyekcySXg=
     delayedInitialization: 0
     cameraFocusModeSetting: 2
-    cameraDeviceModeSetting: -2
+    cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
     virtualSceneScaleFactor: 1
     modelTargetRecoWhileExtendedTracked: 1
     shareRecordingsInITunes: 0
     logLevel: 0
-<<<<<<< HEAD
     version: 11.2.4
-    eulaAcceptedVersions: '{"Values":["10.18","11.2"]}'
-=======
-    version: 10.18.4
     eulaAcceptedVersions: '{"Values":["10.18","11.2","11.1","11.3"]}'
->>>>>>> syakura
   database:
     disableModelExtraction: 0
   plugins:

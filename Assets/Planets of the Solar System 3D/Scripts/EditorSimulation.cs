@@ -9,7 +9,7 @@ public class EditorSimulation : MonoBehaviour
     {
 #if UNITY_EDITOR
         // Disable Vuforia saat testing di Editor
-        var vuforia = FindObjectOfType<VuforiaBehaviour>();
+        var vuforia = Object.FindFirstObjectByType<VuforiaBehaviour>();
         if (vuforia != null)
         {
             vuforia.enabled = false;
