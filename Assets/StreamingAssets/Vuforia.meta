@@ -1,6 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: c13a4a57773c93f41a02a46d101d089b
 folderAsset: yes
+=======
+guid: eab28fbba74990244b40f30d8e190ead
+folderAsset: yes
+timeCreated: 1502300586
+licenseType: Pro
+>>>>>>> syakura
 DefaultImporter:
   externalObjects: {}
   userData: 

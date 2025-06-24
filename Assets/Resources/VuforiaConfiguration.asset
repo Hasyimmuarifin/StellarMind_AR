@@ -17,14 +17,19 @@ MonoBehaviour:
     ufoLicenseKey: QVNERkhaVC8vLy8vQUFBQUtEMmhNdnBVSTBtR3M2eGFpdStqZkorSU11V3BtYlBZbXdHRlBSeTM2S2g0TnBIMStMeHptRTJkQ09zLzNSRWpOZmtJdUFJZEFybHFkcW5TMHd2R1RyUStkOHRlbGFLdDBxMlpmSC9RV210bHF5M0JubVRYNmJHYUpjTFVheHlzbmsrM2twbkN4c3VMbEhFWjRQUEplSzUvZXFaQkQwa2xjTy91NG9ZcDZ0MmFOVkVsTTgzbmNhTUN2cGErTWt3dTNBc2FzS1ltaVlHU3l0N0EwaVRpeUZBU25IUnJQcDRJZXF6NzA2RnNaR29LNjNScTRKTy9VRHZIZEJ6eXRuMVVvUDYvSFhIZVZtU0wrYnJBaGQ3STdrVVRjN09hTTFESUU5SmwxQmZWRjB2S2dFL29VaExjekFFRnJaNVFzUldkZUhvUzIvWUxpRFVzVXFwaGwzSmlKdUViRUlCS2dodWdFSjVURlIwSUNNZ3I=
     delayedInitialization: 0
     cameraFocusModeSetting: 2
-    cameraDeviceModeSetting: -1
+    cameraDeviceModeSetting: -2
     maxSimultaneousImageTargets: 1
     virtualSceneScaleFactor: 1
     modelTargetRecoWhileExtendedTracked: 1
     shareRecordingsInITunes: 0
     logLevel: 0
+<<<<<<< HEAD
     version: 11.2.4
     eulaAcceptedVersions: '{"Values":["10.18","11.2"]}'
+=======
+    version: 10.18.4
+    eulaAcceptedVersions: '{"Values":["10.18","11.2","11.1","11.3"]}'
+>>>>>>> syakura
   database:
     disableModelExtraction: 0
   plugins:

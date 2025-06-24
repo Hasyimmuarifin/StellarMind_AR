@@ -1,6 +1,10 @@
 {
   "dependencies": {
+<<<<<<< HEAD
     "com.ptc.vuforia.engine": "file:com.ptc.vuforia.engine-11.2.4.tgz",
+=======
+    "com.ptc.vuforia.engine": "file:com.ptc.vuforia.engine-10.18.4.tgz",
+>>>>>>> syakura
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.collab-proxy": "2.8.1",
     "com.unity.feature.development": "1.0.2",
