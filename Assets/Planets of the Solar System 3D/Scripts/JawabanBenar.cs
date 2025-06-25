@@ -18,6 +18,10 @@ public class JawabanBenar : MonoBehaviour
 
     IEnumerator LoadSceneWithoutBlack(int sceneIndex)
     {
+        // Tunggu 1 detik agar suara selesai
+        yield return new WaitForSeconds(1f);
+
+        // Mulai loading scene
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneIndex);
         asyncLoad.allowSceneActivation = false;
 

@@ -7,7 +7,7 @@ public class BacksoundManager : MonoBehaviour
     private AudioSource audioSource;
 
     // Daftar nama scene yang diizinkan memiliki backsound
-    private string[] quizScenes = { "quiz 1", "quiz 2", "quiz 3", "quiz 4", "quiz 5", "ending" };
+    private string[] quizScenes = { "main menu", "quiz 1", "quiz 2", "quiz 3", "quiz 4", "quiz 5", "ending" };
 
     void Awake()
     {
