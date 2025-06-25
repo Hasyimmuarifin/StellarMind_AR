@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Planets of the Solar System 3D/Scenes/main menu.unity
+    guid: 09ea89be3ab4cc141a6f3963878f27fc
+  - enabled: 1
     path: Assets/Planets of the Solar System 3D/Scenes/Overview.unity
     guid: 814be974cad794e15b4b92041614ba68
   - enabled: 1
@@ -26,8 +29,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Planets of the Solar System 3D/Scenes/ending.unity
     guid: f5704ac01c3ab4e41a8ba700f2f40128
-  - enabled: 1
-    path: Assets/Planets of the Solar System 3D/Scenes/main menu.unity
-    guid: 09ea89be3ab4cc141a6f3963878f27fc
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

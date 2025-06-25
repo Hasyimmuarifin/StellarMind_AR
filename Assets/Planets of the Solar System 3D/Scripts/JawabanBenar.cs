@@ -26,7 +26,7 @@ public class JawabanBenar : MonoBehaviour
         asyncLoad.allowSceneActivation = false;
 
         // Tunggu sampai scene selesai dimuat di background
-        while (asyncLoad.progress < 0.9f)
+        while (asyncLoad.progress < 0f)
         {
             yield return null;
         }
