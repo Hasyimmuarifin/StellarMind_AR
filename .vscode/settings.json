@@ -66,5 +66,5 @@
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj"
     },
-    "dotnet.defaultSolution": "StellarMind_The AR Planet Quiz Game.sln"
+    "dotnet.defaultSolution": "StellarMind_AR.sln"
 }

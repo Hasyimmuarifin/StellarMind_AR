@@ -9,6 +9,8 @@ public class SceneAkhir : MonoBehaviour
     public Sprite cukupSprite;
     public Sprite gagalSprite;
 
+    public AudioSource klikSound; // <-- Tambahkan ini
+
     void Start()
     {
         int skor = ScoreManager.Instance.score;
@@ -29,7 +31,19 @@ public class SceneAkhir : MonoBehaviour
 
     public void UlangiQuiz()
     {
+        if (klikSound != null)
+            klikSound.Play();
+
+        // Pakai Coroutine agar suara sempat diputar dulu sebelum pindah scene
+        StartCoroutine(LoadSceneAfterSound());
+    }
+
+    private System.Collections.IEnumerator LoadSceneAfterSound()
+    {
+        // Tunggu selama durasi suara
+        yield return new WaitForSeconds(klikSound.clip.length);
+
         ScoreManager.Instance.ResetSkor();
-        SceneManager.LoadScene("quiz 1"); // Ganti dengan nama scene pertama kamu
+        SceneManager.LoadScene("quiz 1"); // Ganti sesuai nama scene awal kamu
     }
 }

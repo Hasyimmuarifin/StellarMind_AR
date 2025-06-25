@@ -1,24 +1,33 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class JawabanBenar : MonoBehaviour
 {
-    public AudioSource benarSound;         // Drag audio "benar" ke sini
-    public float delayBeforeNextScene = 2f; // Delay (detik) sebelum pindah scene
+    public AudioSource benarSound;
 
     public void OnButtonClick()
     {
         if (benarSound != null)
             benarSound.Play();
 
-        ScoreManager.Instance.TambahSkor(); // Tambah skor
+        ScoreManager.Instance.TambahSkor();
 
-        Invoke("PindahScene", delayBeforeNextScene);
+        StartCoroutine(LoadSceneWithoutBlack(SceneManager.GetActiveScene().buildIndex + 1));
     }
 
-
-    void PindahScene()
+    IEnumerator LoadSceneWithoutBlack(int sceneIndex)
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneIndex);
+        asyncLoad.allowSceneActivation = false;
+
+        // Tunggu sampai scene selesai dimuat di background
+        while (asyncLoad.progress < 0.9f)
+        {
+            yield return null;
+        }
+
+        // Langsung aktifkan tanpa delay/hitam
+        asyncLoad.allowSceneActivation = true;
     }
 }

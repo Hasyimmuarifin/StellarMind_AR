@@ -26,27 +26,34 @@ public class BacksoundManager : MonoBehaviour
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        bool shouldPlay = false;
+        bool isQuizScene = false;
 
         foreach (string quizScene in quizScenes)
         {
             if (scene.name == quizScene)
             {
-                shouldPlay = true;
+                isQuizScene = true;
                 break;
             }
         }
 
-        if (shouldPlay)
+        if (isQuizScene)
         {
             if (!audioSource.isPlaying)
-                audioSource.Play();
+            {
+                audioSource.Play(); // Mulai main jika belum
+            }
+            // else: biarkan saja, jangan diapa-apakan
         }
         else
         {
-            audioSource.Stop();
+            if (audioSource.isPlaying)
+            {
+                audioSource.Stop(); // Stop jika masuk scene non-quiz
+            }
         }
     }
+
 
     void OnDestroy()
     {
